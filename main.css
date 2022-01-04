@@ -1,0 +1,430 @@
+body {
+  margin: 0;
+  font-family: 'Comfortaa', cursive;
+  font-size: 16px;
+  color: #A9A9A9;
+  background-image: url(https://totoro-shop.ru/image/data/main/fon/cats2.jpg);
+  background-position: left-top;
+  background-repeat: inherit;
+
+}
+
+
+*,
+*:before,
+*:after{
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.header {
+  padding: 10px 0;
+}
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__link {
+  text-decoration: none;
+  color: #FFFFFF;
+  opacity: .75;
+  transition: opacity .2s linear;
+  margin-left: 50px;
+  font-size: 20px;
+}
+.header__link:hover {
+  opacity: 1;
+}
+
+.title__link {
+  padding-left: 50px;
+
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #FFFFFF;
+  margin-right: 20px;
+  opacity: .75;
+  transition: opacity .2s linear;
+}
+.nav__link:hover {
+  opacity: 1;
+}
+
+
+.intro {
+  display: flex;
+  margin: 0;
+  align-items: center;
+}
+.title__icon {
+  margin: 0;
+
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icons {
+  font-size: 50px;
+}
+
+.categories {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  float: none;
+  align-items: center;
+  padding-left: 50px;
+}
+.pictures {
+  text-align: center;
+  margin: 100px;
+}
+.telo__link {
+  text-decoration: none;
+  color: #FFFFFF;
+  opacity: .8;
+  transition: opacity .2s linear;
+  margin-left: 50px;
+}
+.telo__link:hover {
+  opacity: 1;
+}
+p {
+  margin-left: 30px;
+  font-family: 'Comfortaa', cursive;
+  font-size: 20px;
+  color:#74000C;
+}
+h4 {
+  margin-top: 30px;
+  margin-left: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  color:#FFFFFF;
+  text-align: center;
+}
+
+
+.kontakty {
+  padding-top: 30px;
+  text-align: center;
+}
+
+
+
+
+.bottom__link {
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+  margin-top: 30px;
+  margin-left: 50px;
+  font-size: 20px;
+  color:#FFFFFF;
+  text-decoration: none;
+  opacity: .8;
+  transition: opacity .2s linear;
+
+}
+.bottom__link:hover {
+  opacity: 1;
+}
+
+
+
+
+.border {
+  display: block;
+  border: 5px dashed #A3D0C3;
+  border-radius: 3px;
+  background: #FFFFFF;
+
+
+}
+
+
+
+.figures {
+  flex-wrap: wrap;
+  display: flex;
+  margin: 100px 0;
+  align-items: center;
+}
+.figures__item {
+  text-align: center;
+  width: 25%;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+.figures__icons {
+  display: block;
+  border: 5px  dashed #A3D0C3;
+  border-radius: 3px;
+  margin-bottom: 20px;
+
+  text-align: center;
+}
+
+
+.figures__text {
+  font-family: 'Neucha', cursive;
+    font-size: 20px;
+    color: #000;
+text-align: center;
+}
+
+.figures__tixt {
+  font-family: 'Neucha', cursive;
+  font-size: 16px;
+  color: #000;
+text-align: center;
+}
+
+.figures__price {
+  font-family: 'Neucha', cursive;
+    font-size: 26px;
+    color: #000;
+  text-align: center;
+}
+
+
+
+
+
+
+.mangas {
+  flex-wrap: wrap;
+  display: flex;
+  margin: 100px 0;
+}
+.mangas__item {
+  text-align: center;
+  width: 25%;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+.mangas__icons {
+  display: block;
+  border: 5px  dashed #A3D0C3;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+
+}
+.mangas__text {
+  font-family: 'Neucha', cursive;
+  font-size: 21px;
+  color: #000;
+  text-align: center;
+}
+
+
+.mangas__price {
+  font-family: 'Neucha', cursive;
+  font-size: 26px;
+  color: #000;
+  text-align: center;
+}
+
+
+
+
+
+
+.pillows {
+  flex-wrap: wrap;
+  display: flex;
+  margin: 100px 0;
+}
+.pillows__item {
+  text-align: center;
+  width: 25%;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+.pillows__icons {
+  display: block;
+  border: 5px  dashed #A3D0C3;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+
+.pillows__text {
+  font-family: 'Neucha', cursive;
+  font-size: 20px;
+  color: #000;
+text-align: center;
+}
+.pillows__tixt {
+  font-family: 'Neucha', cursive;
+  font-size: 20px;
+  color: #000;
+  text-align: center;
+}
+
+
+.pillows__price {
+  font-family: 'Neucha', cursive;
+  font-size: 20px;
+  color: #000;
+  text-align: center;
+}
+
+
+
+
+
+.futbolki {
+  flex-wrap: wrap;
+  display: flex;
+  margin: 100px 0;
+}
+.futbolki__item {
+  text-align: center;
+  width: 33.3333%;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+.futbolki__icons {
+  display: block;
+  border: 5px  dashed #A3D0C3;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  
+  text-align: center;
+}
+
+
+.futbolki__text {
+  font-family: 'Neucha', cursive;
+  font-size: 20px;
+  color: #000;
+text-align: center;
+}
+
+
+
+.futbolki__price {
+  font-family: 'Neucha', cursive;
+  font-size: 26px;
+  color: #000;
+  text-align: center;
+}
+
+
+
+
+
+
+.bag {
+  flex-wrap: wrap;
+  display: flex;
+  margin: 100px 0;
+}
+.bag__item {
+  text-align: center;
+  width: 33.3333%;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+.bag__icons {
+  display: block;
+  border: 5px  dashed #A3D0C3;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+
+.bag__text {
+  font-family: 'Neucha', cursive;
+  font-size: 20px;
+  color: #000;
+text-align: center;
+}
+
+
+
+.bag__price {
+  font-family: 'Neucha', cursive;
+  font-size: 26px;
+  color: #000;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+.top {
+    background-color: #A3D0C3;
+    height: 170px;
+}
+.between1{
+    background-color: #43AB8D;
+    height: 35px;
+    align-items: center;
+}
+.between2{
+    height: 20vh;
+}
+.bottom {
+    background-color: #7B68EE;
+    height: 20vh;
+}
+.search {
+  background: #A3D0C3;
+  position: relative;
+  margin: 0;
+  margin-left: 50px;
+  margin-top: 30px;
+
+}
+.search input {
+  width: 300px;
+  height: 40px;
+  padding-left: 10px;
+  border: 2px solid #7BA7AB;
+  border-radius: 5px;
+  outline: none;
+  background: #F9F0DA;
+  color: #9E9C9C;
+}
+.search button {
+  position: relative;
+  top: 0px;
+  right: 0px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background: #7BA7AB;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+.search button:before {
+  content: "\f002";
+  font-family: FontAwesome;
+  font-size: 16px;
+  color: #F9F0DA;
+}
