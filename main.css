@@ -6,7 +6,6 @@ body {
   background-image: url(https://totoro-shop.ru/image/data/main/fon/cats2.jpg);
   background-position: left-top;
   background-repeat: inherit;
-
 }
 
 
@@ -16,7 +15,12 @@ body {
   box-sizing: border-box;
 }
 
-.container {
+a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+.container-xxl-pt-5{
   width: 100%;
   max-width: 1170px;
   margin: 0 auto;
@@ -32,29 +36,30 @@ body {
 .header__link {
   text-decoration: none;
   color: #FFFFFF;
-  opacity: .75;
-  transition: opacity .2s linear;
+  opacity: .9;
+  transition: opacity .5s linear;
   margin-left: 50px;
   font-size: 20px;
+  margin: 20px;
 }
 .header__link:hover {
-  opacity: 1;
-}
-
-.title__link {
-  padding-left: 50px;
-
-}
-
-.nav__link {
-  text-decoration: none;
-  color: #FFFFFF;
-  margin-right: 20px;
   opacity: .75;
-  transition: opacity .2s linear;
+  color: black;
 }
-.nav__link:hover {
+
+
+.nav-link {
+  color: white;
+  margin-right: 50px;
+  font-size: 20px;
+  margin: 0 auto;
+  text-decoration: none;
   opacity: 1;
+  transition: opacity .5s linear;
+}
+.nav-link:hover {
+  opacity: .7;
+  color: black;
 }
 
 
@@ -64,8 +69,9 @@ body {
   align-items: center;
 }
 .title__icon {
-  margin: 0;
-
+  position: relative;
+  margin-left: 1px;
+  margin-top: 5px;
 }
 .title {
   display: flex;
@@ -73,30 +79,71 @@ body {
   align-items: center;
 }
 .icons {
-  font-size: 50px;
+  margin-top: 5px;
+  float: right;
+  padding: 5px;
+}
+
+.title__link {
+  padding-left: 35px;
+}
+
+.search {
+  background: #A3D0C3;
+  position: relative;
+  margin: 0;
+  margin-left: 50px;
+  margin-top: 20px;
+
+}
+.search input {
+  width: 300px;
+  height: 40px;
+  padding-left: 10px;
+  border: 2px solid #7BA7AB;
+  border-radius: 5px;
+  outline: none;
+  background: #F9F0DA;
+  color: #9E9C9C;
+}
+.search button {
+  position: relative;
+  top: 0px;
+  right: 0px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background: #7BA7AB;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+.search button:before {
+  content: "\f002";
+  font-family: FontAwesome;
+  font-size: 16px;
+  color: #F9F0DA;
 }
 
 .categories {
   width: 100%;
   max-width: 1170px;
-  margin: 0 auto;
+  margin: .5px auto;
   float: none;
   align-items: center;
-  padding-left: 50px;
+  padding-left: 0;
 }
-.pictures {
-  text-align: center;
-  margin: 100px;
-}
+
 .telo__link {
   text-decoration: none;
   color: #FFFFFF;
-  opacity: .8;
-  transition: opacity .2s linear;
-  margin-left: 50px;
+  opacity: .9;
+  transition: opacity .5s linear;
+  margin-left: 70px;
 }
+
 .telo__link:hover {
-  opacity: 1;
+  opacity: .75;
+  color: black;
 }
 p {
   margin-left: 30px;
@@ -105,12 +152,18 @@ p {
   color:#74000C;
 }
 h4 {
-  margin-top: 30px;
+  font-size: 15px;
+  padding: 10px;
+  margin-top: 10px;
   margin-left: 30px;
   font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
-  color:#FFFFFF;
+  color:white;
   text-align: center;
+}
+
+.carousel-item{
+  padding: 150px;
+  margin: 0 auto;
 }
 
 
@@ -119,10 +172,25 @@ h4 {
   text-align: center;
 }
 
+.top {
+    background-color: #A3D0C3;
+    height: 170px;
+}
+.between1{
+    background-color: #43AB8D;
+    height: 30px;
+}
+.between2{
+    height:100px;
+}
 
+.button {
+    background-color: #7B68EE;
+    height: 20vh;
+    width: 100%;
+}
 
-
-.bottom__link {
+.nav1-link{
   text-align: center;
   font-family: 'Comfortaa', cursive;
   margin-top: 30px;
@@ -130,27 +198,20 @@ h4 {
   font-size: 20px;
   color:#FFFFFF;
   text-decoration: none;
-  opacity: .8;
-  transition: opacity .2s linear;
-
-}
-.bottom__link:hover {
   opacity: 1;
+  transition: opacity .5s linear;
 }
-
-
-
+.nav1-link:hover {
+  opacity: .7;
+  color:black;
+}
 
 .border {
   display: block;
   border: 5px dashed #A3D0C3;
   border-radius: 3px;
   background: #FFFFFF;
-
-
 }
-
-
 
 .figures {
   flex-wrap: wrap;
@@ -221,8 +282,6 @@ text-align: center;
   text-align: center;
 }
 
-
-}
 .mangas__text {
   font-family: 'Neucha', cursive;
   font-size: 21px;
@@ -306,7 +365,7 @@ text-align: center;
   border: 5px  dashed #A3D0C3;
   border-radius: 3px;
   margin-bottom: 20px;
-  
+
   text-align: center;
 }
 
@@ -370,61 +429,23 @@ text-align: center;
   text-align: center;
 }
 
-
-
-
-
-
-
-
-.top {
-    background-color: #A3D0C3;
-    height: 170px;
+.img-properties {
+  width: 250px;
+  height: 350px;
 }
-.between1{
-    background-color: #43AB8D;
-    height: 35px;
-    align-items: center;
-}
-.between2{
-    height: 20vh;
-}
-.bottom {
-    background-color: #7B68EE;
-    height: 20vh;
-}
-.search {
-  background: #A3D0C3;
-  position: relative;
-  margin: 0;
-  margin-left: 50px;
-  margin-top: 30px;
 
-}
-.search input {
-  width: 300px;
-  height: 40px;
-  padding-left: 10px;
-  border: 2px solid #7BA7AB;
-  border-radius: 5px;
-  outline: none;
-  background: #F9F0DA;
-  color: #9E9C9C;
-}
-.search button {
-  position: relative;
-  top: 0px;
-  right: 0px;
-  width: 40px;
-  height: 40px;
-  border: none;
-  background: #7BA7AB;
-  border-radius: 0 5px 5px 0;
-  cursor: pointer;
-}
-.search button:before {
-  content: "\f002";
-  font-family: FontAwesome;
-  font-size: 16px;
-  color: #F9F0DA;
+@media screen and (max-width: 900px) {
+  .img-properties {
+    width: 150px;
+    height: 200px;
+  }
+
+  .telo__link {
+    margin-left: 30px;
+  }
+  
+  .carousel-item img {
+    height: 500px;
+  }
+
 }
